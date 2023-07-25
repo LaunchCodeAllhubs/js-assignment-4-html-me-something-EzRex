@@ -2,14 +2,15 @@
 <html>
    <head>
       <title>A story</title>
+      <link rel="stylesheet" href="styles.css">
    </head>
    <body>
       <!-- Write your HTML in this file! -->
       <header>
-         <h1>June, the Cat Found in June</h1>
+         <h1 id="mainHeading">June, the Cat Found in June</h1>
          <nav>
-            <h2>Table of Contents</h2>
-            <ul>
+            <h2 class="toc">Table of Contents</h2>
+            <ul class="toc">
                <li>
                   <a href="#part1">The Beginning</a>
                </li>
@@ -45,11 +46,18 @@
                <a name="part3"></a>
                <h2>THE MENACE!</h2>
                <p>Juniper (June) has now successfully infiltrated the headquarters of the humans and has now been making progress in her mission to becoming the house pet.</p>
-               <label>Mission Progress:</label>
-               <progress value="20" max="100">20%</progress>
-               <figure>
+               
+               
+                  <figure>
                   <img src="images/hidden.png" alt="Mission in progress">
                </figure>
+               <div id="mission">
+                  <label class="bar">Mission Progress:</label>
+                  <progress class="bar" value="20" max="100">20%</progress>
+               </div>
+            </section>
+            <section>
+               <p id="testP" class="funParagraph">The humans hope to adopt her.</p>
             </section>
          </article>
             

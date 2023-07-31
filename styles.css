@@ -1,1 +1,49 @@
 /* Write your CSS here! */
+#mainHeading {
+    color:red;
+    text-align:center;
+}
+.toc {
+    margin: auto;
+    width: 50%;
+
+    padding: 10px;
+    text-align: center;
+    list-style-type:none;
+}
+body {
+    display: block;
+    margin: 8px;
+    background-image: url("images/backgrnd.jpg");
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+
+}
+
+section {
+    display: block;
+    margin: auto;
+    width: 50%;
+
+    padding: 10px;
+}
+
+#mission{
+    display: block;
+    margin: auto;
+    width: 50%;
+
+    padding: 10px;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+
+    padding: 10px;
+}
+
+.funParagraph{
+    color:green;
+    text-align: center;
+}
